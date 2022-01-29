@@ -1,128 +1,169 @@
 body{
-    margin: auto;
-    background-color:white;
+    margin: 0;
+    padding: 0;
 }
-header{
-    text-decoration: none;
-}
-a{
-    height:30px;
-    text-align: center;
-    font-style: italic;
-    background-color:#5b3baf;
-    color: white;
+header
+{
+height: 60px;
+background-color: #0a2f97;
 }
 #icon{
-    
     float: left;
 }
-.social
+#social
 {
     float: right;
 }
 .slogo
 {
-    height: 50px;
-    width: 50px;
+height: 50px;
+width: 50px;
+float: left;
 }
-.social > a{
+a{
+    color: white;
     text-decoration: none;
 }
-h1{
-    background-color:#5b3baf;
-    height: 40px;
-    background-size: 100% 40px;
-    color: white;
-    text-align: center;
-    font-style: italic;
-}
-.hi{
-    height: 200px;
-    width: 20%;
-    text-align: center;
-    float:left;
-    float:inline-start;
-}
-.hi> img{
-width: 200px;
-height: 200px;
-}
-.para{
-    color: slateblue;
-    font-size: 30px;
-    text-align: center;
-    font-style: italic;
-    height: 200px;
-}
 
-.skills{
-    text-align: center;
-    height: 100px;
-    border: 2px solid slateblue;
-    background-size: 100% 100px;
-    margin: 2% 2%;
+.box{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    display: inline-block;
+    background-color:white;
 }
-.skills> img
-{
-    width: 100px;
-    height: 100px;
-}
-.edu
-{
-    height: 200px;
-    width:30%;
-    background-color: #538d76;
-    float: left;
-    margin-left: 3%;
-    color: white;
-}
-.edu> img {
-    width:200px;
-    height:200px;
+.container{
+    height:150px;
+    width:150px;
     float: left;
 }
-.edu> span{
-text-align: center;
-font-style: italic;
-font-size: 30px;
+.container>img
+{    
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin-left:0%;
+    margin-top:2%;
+    position: absolute;
 }
-.edu> p{
+.text{     
+        color: white;
+        font-size: 25px;
+        font-style: italic;
+        text-align:justify;
+        overflow: scroll;
+        overflow: hidden;
+}
+h1{
+    margin-left: 0%;
+    margin-top: -1%;
+    position:absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #0a2f97;
     text-align: center;
     font-style: italic;
+    color: white;
+}
+.skills{
+        text-align: center;
+        height: 100px;
+        background-size: 100% 100px;
+        margin-left: 0%;
+        margin-top: 2.5%;
+        margin-bottom: 1%;
+}
+.skills > img{
+    height: 100px;
+    width: 100px;
+}
+.edu{
+    height:200px;
+    width:30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
+}
+.edu > img{
+    width:45%;
+    float: left;
+    height:200px;
+}
+.edu > span
+{
+    color:orange;
+    text-align: center;
+    font-size:22px;
+    font-weight:bold;
+    font-style: italic;
+    display:block;
+    margin-left: 2%;
+}
+.edu > p
+{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: blueviolet;
+    display: block;
 }
 .hob{
-    height: 200px;
+    height:200px;
     width:30%;
-    background-color: #e576a1;
     float: left;
-    font-size: 30px;
-    margin-left: 3%;
-    color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
 }
-.hob> img{
-    height: 200px;
-    width:200px;
+.hob > img
+{
+    width:48%;
     float: left;
+    height:200px;
 }
-.hob> p{
+.hob > p
+{
     text-align: center;
+    font-size: 25px;
     font-style: italic;
+    color: blueviolet;
+    display: block;
 }
 .frame{
-    height: 350px;
+    margin-top: 3%;
+    margin-left: 1%;
     float: left;
 }
 .form{
+    float: left;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+h2{
+    margin-left: 0%;
+    margin-top: -1%;
+    position:absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #0a2f97;
     text-align: center;
     font-style: italic;
+    color: white;
 }
-
-#main{
+.main{
     width:100%;
     display:inline-block;
 }
-footer{
+footer
+{
+    margin-top: 0%;
+    margin-left: 0%;
     text-align: center;
+    width: 100%;
+    height: 20px;
+    background-color: #0a2f97;
+    font-size: 12px;
     font-style: italic;
-    color: rgba(86, 10, 173, 0.863);
+    color: white;
 }
